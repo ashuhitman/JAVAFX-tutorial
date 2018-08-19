@@ -8,18 +8,18 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="263.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.intershala.javafxapp.Controller">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="263.0" prefWidth="304.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.intershala.javafxapp.Controller">
     <children>
         <Pane prefHeight="200.0" prefWidth="200.0">
             <children>
-                <Label fx:id="welcomeLabel" layoutX="81.0" layoutY="30.0" text="Welcome" textAlignment="CENTER">
+                <Label fx:id="welcomeLabel" alignment="CENTER" layoutX="-4.0" layoutY="30.0" prefHeight="31.0" prefWidth="312.0" text="Welcome" textAlignment="CENTER">
                     <font>
                         <Font name="System Bold" size="21.0" />
                     </font>
                 </Label>
-                <ChoiceBox fx:id="choiceBox" layoutX="52.0" layoutY="75.0" prefWidth="150.0" />
-                <TextField fx:id="inputField" layoutX="53.0" layoutY="124.0" promptText="Enter Temperature" />
-                <Button fx:id="convertButton" layoutX="90.0" layoutY="174.0" mnemonicParsing="false" text="Convert" />
+                <ChoiceBox fx:id="choiceBox" layoutX="77.0" layoutY="75.0" prefWidth="150.0" />
+                <TextField fx:id="inputField" layoutX="78.0" layoutY="121.0" promptText="Enter Temperature" />
+                <Button fx:id="convertButton" layoutX="123.0" layoutY="161.0" mnemonicParsing="false" text="Convert" />
             </children>
         </Pane>
     </children>
