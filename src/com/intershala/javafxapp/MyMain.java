@@ -18,8 +18,8 @@ public class MyMain extends Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("app_layout.fxml"));
         VBox rootNode = loader.load();
         MenuBar menuBar = createMenu();
-        rootNode.getChildren().addAll(menuBar);
-        Scene scene = new Scene(rootNode,500,350);
+        rootNode.getChildren().add(0,menuBar);
+        Scene scene = new Scene(rootNode);
         primaryStage.setScene(scene);
         primaryStage.setTitle("Hello JavaFX app");
         primaryStage.show();
